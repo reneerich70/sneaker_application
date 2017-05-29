@@ -25,8 +25,9 @@ background-color: #d62e58;
 h1,h3,h4{
   color:white;
 }
-h2, .size-chart{
+h3, .size-chart{
   color: #d64e2c;
+  
 }
 p {
   color: white;
