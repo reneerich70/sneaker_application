@@ -18,6 +18,11 @@ body {
 }
 a:link, a:visited, a:active {
   text-decoration: underline;
+  color:blue;
+
+}
+.buy-now-link {
+  color:#d62e58;
 }
 section {
 background-color: #d62e58;
@@ -27,13 +32,15 @@ h1,h3,h4{
 }
 h3, .size-chart{
   color: #d64e2c;
-  
+
 }
 p {
   color: white;
 }
 .shoe-chart {
-  background-color: white;
+  background-color: #d64e2c;
+  color: white;
+
 }
 .middle-section p{
   color:black;
