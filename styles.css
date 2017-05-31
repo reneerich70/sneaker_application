@@ -1,59 +1,63 @@
 body {
-  background: #d64e2c;
-  background: -moz-linear-gradient(top, #d64e2c 0%,#d62e58 100% );
-  background: -webkit-gradient(linear, left top, left bottom,color-stop(0%,#d64e2c), color-stop(100%,#d62e58));
-  background: -webkit-linear-gradient(top, #d64e2c 0%, #d62e58 100% );
-  background: -o-linear-gradient(top, #d64e2c 0%, #d62e58 100%);
-  background: -ms-linear-gradient(top, #d64e2c 0%, #d62e58 100%);
-  background: linear-gradient(to bottom, #d64e2c 0%, #d62e58 100%);
-  padding-top: 50px ;
-
-  font-family: Arial,Helvitica,"Helvitica Neue",sans-serif !important;
-
+    background: #d64e2c;
+    background: -moz-linear-gradient(top, #d64e2c 0%, #d62e58 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d64e2c), color-stop(100%, #d62e58));
+    background: -webkit-linear-gradient(top, #d64e2c 0%, #d62e58 100%);
+    background: -o-linear-gradient(top, #d64e2c 0%, #d62e58 100%);
+    background: -ms-linear-gradient(top, #d64e2c 0%, #d62e58 100%);
+    background: linear-gradient(to bottom, #d64e2c 0%, #d62e58 100%);
+    padding-top: 50px;
+    font-family: Arial, Helvitica, "Helvitica Neue", sans-serif !important;
 }
 
 .product-display {
-  padding: 20px 15px;
-  text-align:center;
+    padding: 20px 15px;
+    text-align: center;
 }
+
 a:link, a:visited, a:active {
-  text-decoration: underline;
-  color:blue;
-
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
 }
+
 .buy-now-link {
-  color:#d62e58;
+    color: #d62e58;
 }
+
 section {
-background-color: #d62e58;
+    background-color: #d62e58;
 }
-h1,h3,h4{
-  color:white;
-}
-h3, .size-chart{
-  color: #d64e2c;
 
+h1, h3, h4 {
+    color: white;
+    text-align: center;
 }
+
+.size-chart {
+    color: #d64e2c;
+}
+
 p {
-  color: white;
+    color: white;
+    align-items: center;
 }
+
 .shoe-chart {
-  background-color: #d64e2c;
-  color: white;
-
+    background-color: #d64e2c;
+    color: white;
 }
-.middle-section p{
-  color:black;
 
-
+.middle-section p {
+    color: black;
+    text-align: center;
 }
+
 .bottom-section {
-  background-color: #d64e2c;
-
+    background-color: #d64e2c;
 }
 
 footer {
-  background-color: white;
-
-  color: light-brown;
+    background-color: white;
+    color: light-brown;
 }
