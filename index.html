@@ -73,64 +73,71 @@
                 <p>$70.00</p>
                 <button type="button" class="btn btn-default"><a href="#Buy Now"><span class="buy-now-link">Buy Now!</span></a>
                 </button>
-                <h1>This Week's Sales!</h1>
+                <!--size chart with external page-->
+                <section>
+                    <p>Find Your Shoe Size & Fit!</p>
+                    <button type="button" class="btn-responsive btn-primary btn-md"><a href="sizechart.html">Size chart</a></button>
+                </section>
+
             </section>
+
         </div>
-
+        <h1>This Week's Sales!</h1>
         <!--carousel container-->
-<div class="container">
-  <div class="row">
-    <section class="carousel-display col-xs-8">
-        <section id="carousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-                <figure class="item active">
-                    <img src="./images/shoe2.png" alt="mens-sneakers" class="center-block img-responsive">
-                    <h4> Men's Sneakers</h4>
 
-                    <p><a href="#$90.00">$90.00</a></p>
+        <section id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="container-fluid">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="./images/shoe2.png" alt="mens-sneakers" class="center-block img-responsive">
+                        <h4> Men's Sneakers</h4>
+                        <p><a href="#$90.00">$90.00</a></p>
+                    </div>
+                    <div class="item">
+                        <img src="./images/shoe3.png" alt="womens-sneakers" class="center-block img-responsive">
+                        <h4>Women's Sneakers</h4>
+                        <p>
+                            <a href="#$80.00">$80.00</a>
+                        </p>
+                    </div>
+                    <div class="item">
+                        <img src="./images/shoe4.png" alt="childrens-sneakers" class="center-block img-responsive">
+                        <h4>Kid's Sneakers</h4>
+                        <p><a href="#$60.00">$60.00</a></p>
+                    </div>
+                </div>
 
-                </figure>
-                <figure class="item">
-                    <img src="./images/shoe3.png" alt="womens-sneakers" class="center-block img-responsive">
-                    <h4>Women's Sneakers</h4>
-                    <p>
-                        <a href="#$80.00">$80.00</a>
-                    </p>
-                </figure>
-                <figure class="item">
-                    <img src="./images/shoe4.png" alt="childrens-sneakers" class="center-block img-responsive">
-                    <h4>Kid's Sneakers</h4>
-                    <p>
-                        <a href="#$60.00">$60.00</a>
-                    </p>
-                </figure>
-              </div>
+
                 <!--carousel controls-->
-                <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-              </div>
-
-        <section class="shoe-chart col-xs-12 ">
-            <p>Find Your Shoe Size & Fit!</p>
-            <button type="button" class="btn-responsive bg-info"><a href="sizechart.html">Size chart</a></button>
 
         </section>
+        </div>
+<!--footer section-->
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="myFooter col-xs-12">
+                        <footer>
+                            
+                            <a href="#Shipping|Terms&amp; Conditions">Shipping Terms &amp; Conditions</a>&copy;Copyright 2017. 80's Style Sneaker Shop, LLC.
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
 
-        <footer>
-
-                <img src="./images/logo.jpg" alt="footer-logo" class="img-responsive">
-                <a href="#Shipping|Terms&amp; Conditions">Shipping Terms &amp; Conditions</a>&copy;Copyright 2017. 80's Style Sneaker Shop, LLC.
-
-        </footer>
 
 
-    </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
