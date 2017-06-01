@@ -15,6 +15,11 @@ body {
     text-align: center;
 }
 
+.carousel-display {
+    padding: 20px 15px;
+    text-align: center;
+}
+
 a:link, a:visited, a:active {
     text-decoration: underline;
     color: blue;
@@ -40,24 +45,19 @@ h1, h3, h4 {
 
 p {
     color: white;
-    align-items: center;
+    text-align: center;
 }
 
 .shoe-chart {
     background-color: #d64e2c;
     color: white;
-}
-
-.middle-section p {
-    color: black;
+    height: 20%;
+    width: 100%;
     text-align: center;
-}
-
-.bottom-section {
-    background-color: #d64e2c;
 }
 
 footer {
     background-color: white;
     color: light-brown;
+    text-align: center;
 }
